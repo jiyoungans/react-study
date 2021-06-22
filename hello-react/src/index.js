@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode> {/* StricMode를 명시한 경우, 나중에 없어질 기능을 사용할 때, warning을 준다. */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
